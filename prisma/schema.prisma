@@ -1,7 +1,7 @@
 datasource db {
   // use postgresql as provider if you are using a postegresql db
   provider     = "mysql"
-  url          = env("DATABASE_URL")
+  url          = env("localhost")
   relationMode = "prisma"
 }
 
