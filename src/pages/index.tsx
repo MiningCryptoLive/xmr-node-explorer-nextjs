@@ -29,14 +29,14 @@ const Home: NextPage<NextPageProps> = ({ ssrNodes }) => {
     <Box p={8}>
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
-        <title>Portemonero Node Explorer</title>
+        <title>SOLOPOOL.PRO <br> Monero Node Explorer</title>
         <meta name="description" content="Yet Another Monero Node Explorer." />
         <meta property="og:title" content="Portemonero Node Explorer" />
         <meta
           property="og:description"
           content="Yet Another Monero Node Explorer."
         />
-        <meta property="og:url" content="https://explorer.portemonero.com/" />
+        <meta property="og:url" content="https://explorer.solopool.pro/" />
         <meta property="og:type" content="website" />
       </Head>
       <Box>
