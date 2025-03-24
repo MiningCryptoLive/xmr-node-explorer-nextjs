@@ -25,16 +25,16 @@ const MapPage: NextPage<NextPageProps> = ({ ssrNodes }) => {
     <>
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
-        <title>Portemonero Node Map</title>
+        <title>Monero Node Map</title>
         <meta name="description" content="Yet Another Monero Node Explorer." />
-        <meta property="og:title" content="Portemonero Node Map" />
+        <meta property="og:title" content="monero Node Map" />
         <meta
           property="og:description"
           content="Yet Another Monero Node Explorer."
         />
         <meta
           property="og:url"
-          content="https://explorer.portemonero.com/map"
+          content="http://solopool.pro/map"
         />
         <meta property="og:type" content="website" />
       </Head>
@@ -45,7 +45,7 @@ const MapPage: NextPage<NextPageProps> = ({ ssrNodes }) => {
             bgClip="text"
             marginBottom={2}
           >
-            Portemonero Node Map
+            Monero Node Map
           </Heading>
         </Link>
         <Map nodes={nodes} />
