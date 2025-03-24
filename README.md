@@ -1,4 +1,4 @@
-# Portemonero Node Explorer
+# Monero Node Explorer
 
 ## Features
 
@@ -29,6 +29,7 @@ docker-compose up
 npx prisma migrate dev
 npm run dev
 ```
+see nginx-config to run https:
 
 Go to localhost:3000 in your browser
 you can inspect the database with `npx prisma studio`
